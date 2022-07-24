@@ -9,7 +9,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 50px;
     height: 100vh;
+    flex-wrap: wrap;
+    
+}
+h1{
+    color: tomato;
+    font-size: 22px;
+    text-transform: capitalize;
 }
 .container{
     background-color:#130b0b;
