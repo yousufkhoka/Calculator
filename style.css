@@ -14,11 +14,7 @@ body{
     flex-wrap: wrap;
     
 }
-h1{
-    color: tomato;
-    font-size: 22px;
-    text-transform: capitalize;
-}
+
 .container{
     background-color:#130b0b;
 }
