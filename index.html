@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+       <div class="output">
+        <input type="text" placeholder="0" id="input">
+       </div>
+
+        <div class="buttonAll">
+            <button class="clrAll" onclick="clrAll()">c</button>
+            <button onclick="del()">del</button>
+            <button onclick="sumShow('/')">/</button>
+
+            <button onclick="sumShow('7')">7</button>
+            <button onclick="sumShow('8')">8</button>
+            <button onclick="sumShow('9')">9</button>
+            <button onclick="sumShow('*')">%</button>
+
+            <button onclick="sumShow('4')">4</button>
+            <button onclick="sumShow('5')">5</button>
+            <button onclick="sumShow('6')">6</button>
+            <button onclick="sumShow('-')">-</button>
+
+            <button onclick="sumShow('1')">1</button>
+            <button onclick="sumShow('2')">2</button>
+            <button onclick="sumShow('3')">3</button>
+            <button class="puse" onclick="sumShow('+')">+</button>
+            <button onclick="sumShow('0')">0</button>
+            <button onclick="sumShow('.')">.</button>
+
+            <button class="result" onclick="result()">=</button>
+        </div>
+    </div>
+    <script src="custom.js"></script>
+    
+    
+</body>
+</html>
